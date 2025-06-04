@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.log
+*.tmp
+
+# Data files (do not upload datasets like T1.csv)
+data/*.csv
+
+# Plot outputs (optional, to avoid clutter)
+*.png
+*.svg
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Model artifacts
+*.pkl
