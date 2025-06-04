@@ -1,0 +1,8 @@
+## 📂 Data Availability
+
+The dataset used in this study is publicly available and can be accessed via Kaggle:
+
+🔗 https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset
+
+Specifically, the T1.csv file from the Nordex N117 SCADA records was used.  
+Users should download this file manually and place it under the `data/` directory in the project structure.
