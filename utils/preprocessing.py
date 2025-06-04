@@ -1,7 +1,9 @@
-from sklearn.linear_model import LinearRegression
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
 
-def get_lr_model():
-    return LinearRegression()
-
-def get_lr_param_grid():
-    return {}
+def get_preprocessing_pipeline():
+    return Pipeline([
+        ("imputer", SimpleImputer(strategy="median")),
+        ("scaler", StandardScaler())
+    ])
